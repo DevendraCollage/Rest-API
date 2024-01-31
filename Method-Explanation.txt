@@ -1,0 +1,31 @@
+-> Which Method when to use for the CRUD Operation
+1. Create - POST
+2. Read - GET
+3. Update - PUT, PATCH
+4. Delete - DELETE
+
+-> Introduction to REST API
+
+REST stands for Representational State Transfer. It is an architectural style that defines how data should be shared between different software systems on the internet. The key constraint of REST is that it uses HTTP:  and HTTP Verbs:  and HTTP Methods.
+
+A REST API, which stands for Representational State Transfer API, is a type of API (Application Programming Interface) that adheres to the constraints of the REST architectural style. In simple terms, it's a way for different software applications to communicate with each other using HTTP requests and responses. It's based on the principles of REST, which emphasizes a standard client-server architecture, where communication is done via HTTP protocols.
+
+Here's an analogy to understand the concept of REST API:
+
+Imagine you have a restaurant (API) that serves different dishes (resources) to customers (client applications). When a customer wants to order a dish (make a request), they tell the waiter (HTTP request) what they want and any additional preferences (parameters). The waiter then relays the order to the kitchen (server), which prepares the dish (processes the request) and sends it back to the customer (returns a response).
+
+Similarly, in a REST API, the client application sends an HTTP request to the server, specifying the resource it wants to access and any necessary parameters. The server then processes the request, retrieves the resources (data), and sends it back to the client application in an HTTP response.
+
+Here are some of the key characteristics of REST API:
+
+    -> Stateless: Each request-response pair is independent of any other request-response pair. The server doesn't need to store any information about the client between requests.
+
+    -> Client-server: There is a clear separation between the client and the server. The client initiates requests, and the server fulfills them.
+
+    -> Standardized: REST APIs use standard HTTP methods (GET, POST, PUT, DELETE) and status codes, making them easy to understand and use.
+
+    -> Resource-based: Resources are accessed using URLs, making it easy to identify and locate specific data.
+
+    -> Lightweight: REST APIs are designed to be efficient and use minimal bandwidth.
+
+REST APIs are widely used in web develop because they are flexible, scalable, and easy to use.    
